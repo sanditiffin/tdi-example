@@ -1,5 +1,4 @@
 # Chef
-.chef
 .chef/*.pem
 .chef/encrypted_data_bag_secret
 
@@ -52,6 +51,15 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# Kitchen
-.kitchen
-.kitchen.local.yml
+# Git
+.git/
+.gitignore
+.gitmodules
+
+# Subversion
+.svn/
+
+# Mercurial
+.hg/*
+*/.hg/*
+.hgignore
