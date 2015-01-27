@@ -1,0 +1,13 @@
+DEPENDENCIES
+  git
+    path: .
+    metadata: true
+
+GRAPH
+  build-essential (2.1.3)
+  git (0.1.0)
+    runit (~> 1.4.0)
+  runit (1.4.0)
+    build-essential (>= 0.0.0)
+    yum (>= 0.0.0)
+  yum (3.5.2)

@@ -9,7 +9,7 @@
 
 user 'tdi' do
   comment 'Test Driven Infrastructure'
-  home '/Users/tdi'
+  home '/home/tdi'
   manage_home true
   action :create
 end
@@ -18,12 +18,12 @@ package 'irssi' do
   action :install
 end
 
-directory '/Users/tdi/.irssi' do
+directory '/home/tdi/.irssi' do
   owner 'tdi'
   group 'tdi'
 end
 
-cookbook_file '/Users/tdi/.irssi/config' do
+cookbook_file '/home/tdi/.irssi/config' do
   source 'irssi-config'
   owner 'tdi'
   group 'tdi'
